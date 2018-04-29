@@ -1,4 +1,4 @@
-system.config = {
+system.config = $.extend(system.config, {
 	// Whether to enable automatic refresh
 	autoReload: true,
 	// Automatic refresh rate (ms)
@@ -18,8 +18,10 @@ system.config = {
 	//show Folders
 	foldersShow: false,
 	// theme
-	theme: "default"
-};
+	theme: "default",
+	// 是否显示BT服务器
+	showBTServers: false
+});
 
 // 主题样式
 system.themes = [{
@@ -31,10 +33,15 @@ system.themes = [{
 		value: 'gray',
 		text: 'Gray',
 		group: 'Base'
-	},
+	},	
 	{
 		value: 'metro',
 		text: 'Metro',
+		group: 'Base'
+	},
+	{
+		value: 'material',
+		text: 'Material',
 		group: 'Base'
 	},
 	{
@@ -43,7 +50,7 @@ system.themes = [{
 		group: 'Base'
 	},
 	{
-		value: 'black',
+		value: 'black;logo-white.png',
 		text: 'Black',
 		group: 'Base'
 	},
@@ -78,7 +85,7 @@ system.themes = [{
 		group: 'UI'
 	},
 	{
-		value: 'ui-dark-hive',
+		value: 'ui-dark-hive;logo-white.png',
 		text: 'Dark Hive',
 		group: 'UI'
 	},

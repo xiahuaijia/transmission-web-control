@@ -85,7 +85,6 @@ system.lang = {
 		,"status":{
 			"loading":"Încărcare..."
 		}
-		,"statistics":"Statistici"
 		,"statistics":{
 			"title":"Statistici"
 			,"cumulative":"Cumulat"
@@ -176,9 +175,9 @@ system.lang = {
 			,"seedRatioLimited":"Rația implicită pentru încărcare:"
 			,"queue-stalled-enabled":"Torentele inactive sunt considerete blocate după:"
 			,"idle-seeding-limit-enabled":"Torentele la încărcare vor fi oprite dacă sunt inactive pentru:"
-			,"minuets":"Minute"
+			,"minutes":"Minute"
 			,"nochange":"Nicio schimbare"
-			,"saveing":"Salvez..."
+			,"saving":"Salvez..."
 		}
 		,"public":{
 			"button-ok":"OK"

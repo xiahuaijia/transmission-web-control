@@ -104,7 +104,6 @@ system.lang = {
 		,"status":{
 			"loading":"Betöltés..."
 		}
-		,"statistics":"Statisztika"
 		,"statistics":{
 			"title":"Statisztika"
 			,"cumulative":"Összes"
@@ -197,9 +196,9 @@ system.lang = {
 			,"seedRatioLimited":"Seed a következő arány eléréséig:"
 			,"queue-stalled-enabled":"Inaktív torrentek leállítása:"
 			,"idle-seeding-limit-enabled":"Inaktív torrentek leállítása ennyi tétlenség után:"
-			,"minuets":"Perc"
+			,"minutes":"Perc"
 			,"nochange":"Nincs változás"
-			,"saveing":"Mentés..."
+			,"saving":"Mentés..."
 		}
 		,"public":{
 			"button-ok":"OK"

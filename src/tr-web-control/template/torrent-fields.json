@@ -4,7 +4,7 @@
 		,{"field":"name","width":"300","sortable":"true","formatter":"_usename_"}
 		,{"field":"totalSize","width":"80","align":"right","sortable":"true","formatter":"size"}
 		,{"field":"percentDone","width":"70","align":"center","sortable":"true","formatter":"progress"}
-		,{"field":"remainingTime","width":"100","align":"right","sortable":"true"}
+		,{"field":"remainingTime","width":"100","align":"right","sortable":true, "formatter": "remainingTime"}
 		,{"field":"uploadRatio","width":"60","align":"right","sortable":"true","formatter":"ratio"}
 		,{"field":"status","width":"60","align":"center","sortable":"true"}
 		,{"field":"statusCode","hidden":"true","allowCustom":"false"}
@@ -16,8 +16,10 @@
 		,{"field":"uploadedEver","width":"80","align":"right","sortable":"true","formatter":"size"}
 		,{"field":"addedDate","width":"130","align":"center","sortable":"true","formatter":"longtime"}
 		,{"field":"id","width":"30","align":"center","sortable":"true"}
-		,{"field":"queuePosition","width":"30","align":"center"}
+		,{"field":"queuePosition","width":"30","align":"center","sortable":true}
 		,{"field":"trackers","width":"100","align":"left","sortable":true}
 		,{"field":"downloadDir","width":200,"align":"left","sortable":true}
+		,{"field":"activityDate","width":130,"align":"center","sortable":true,"formatter":"longtime"}
+		,{"field":"labels","width":130,"align":"left", "formatter": "labels"}
 	]
 }
